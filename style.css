@@ -50,3 +50,39 @@ img {
     border: 1px solid black;
     display: block;
 }
+
+.header {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+.footer {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    background-color: blue;
+    padding: 20px 0 20px 0;
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height: 480px;
+}
+
+.one {
+    height: 480px;
+    width: 360px;
+    background-color: black;
+    position: absolute;
+}
+
+.two {
+    height: 480px;
+    width: 360px;
+    background-color: black;
+    position: absolute;
+    left: 365px;
+}
