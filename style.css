@@ -1,0 +1,52 @@
+[type="password"] {
+    color: blue;
+}
+
+/* The Box Model */
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: #000;
+    margin-top: 10px;
+    position: relative;
+}
+
+.content-one, .content-two{
+    position: absolute;
+    /* border: 3px solid #fff; */
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 20px 30px 50px;
+}
+
+.heading {
+    /* border: 2px solid green; */
+    border-style: dotted;
+    border-color: pink;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.round {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+img { 
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.block-heading {
+    border: 1px solid red;
+    display: inline;
+}
+
+.inline {
+    border: 1px solid black;
+    display: block;
+}
